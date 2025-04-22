@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Favour's Portfolio</title>
+    <!-- CSS Links -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <a href="https://amakwe-favour.github.io/f.github.io-/">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-white bg-white fixed-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#home">FAVOUR</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link" href="https://github.com/Amakwe-Favour/f.github.io-" target="_blank">GitHub</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container text-center">
+            <div class="header-text">
+                <p class="text-muted">UI/UX Designer</p>
+                <h1 class="display-4">Hi, I'm <span class="text-primary">Favour Amakwe</span></h1>
+                <p class="lead">From Nigeria</p>
+            </div>
+        </div>
+    </section>
+<!--about me--->
+    <section id="about" class="about-section py-5">
+        <div class="container">
+            <h2 class="section-title text-center mb-5">About Me</h2>
+            <div class="row align-items-center">
+                <!-- Image Column -->
+                <div class="col-md-6 mb-4 mb-md-0">
+                    <div class="about-image-wrapper">
+                        <img src="fav.jpg" 
+                             class="img-fluid rounded shadow" 
+                             style="max-width: 50%; height:40%;"
+                             alt="Favour Amakwe - Professional Portrait"
+                             loading="lazy">
+                    </div>
+                </div>
+    
+                <!-- Content Column -->
+                <div class="col-md-6">
+                    <div class="about-content">
+                        <p class="lead mb-4">
+                            <strong>Hello! I'm Favour Amakwe, a passionate software developer specializing in modern web technologies.</strong> 
+            <strong>With expertise in JavaScript, Python, and Java, I create impactful digital solutions.</strong>
+        </p>
+        <p class="mb-3">
+            <i class="fas fa-code me-2"></i>
+        <strong>My journey began at City College, where I pursued my degree and gained hands-on experience through various projects and internships. These opportunities allowed me to apply my technical knowledge to real-world challenges, helping me grow both personally and professionally.</strong>
+                        </p>
+                        <p class="mb-3">
+                            <i class="fas fa-rocket me-2"></i>
+                            <strong>Over the years, I have contributed to numerous projects, always striving for excellence and innovation. I strongly believe in collaboration and building meaningful relationships with clients and colleagues. My work philosophy centers on deeply understanding client needs and delivering solutions that exceed expectations.</strong>
+                        
+                        <p class="mb-3">
+                            <i class="fas fa-rocket me-2"></i>
+                            <strong>I am constantly seeking new challenges to expand my skill set and stay at the forefront of technology. Outside of work, I enjoy singing, which keeps me inspired and motivated. I am excited to share my portfolio with you and look forward to connecting with fellow professionals who share my passion for programming and technology.
+                               </strong>
+                        </p>
+                        <div class="skills-tags mt-4">
+                            <span class="badge bg-primary me-2 mb-2">JavaScript</span>
+                            <span class="badge bg-primary me-2 mb-2">Python</span>
+                            <span class="badge bg-primary me-2 mb-2">Java</span>
+                            <span class="badge bg-primary me-2 mb-2">Bootstrap</span>
+                            <span class="badge bg-primary me-2 mb-2">Git</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+                
+
+                            
+
+<!-- Services Section -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <!-- Web Development Service -->
+            <div class="service-item">
+                <i class="fas fa-code"></i>
+                <h2>Web Development</h2>
+                <p>Professional web development services with modern technologies (2023-current)</p>
+                <span class="learn-more-btn" onclick="toggleServiceDetails('web-dev')">Learn more ▼</span>
+                <div class="service-details" id="web-dev">
+                    <h4>What I Offer:</h4>
+                    <ul>
+                        <li>Responsive website design</li>
+                        <li>E-commerce solutions</li>
+                        <li>Custom web applications</li>
+                        <li>API integration</li>
+                    </ul>
+                    <h4>Technologies:</h4>
+                    <div class="tech-tags">
+                        <span class="tech-tag">HTML5</span>
+                        <span class="tech-tag">CSS3</span>
+                        <span class="tech-tag">JavaScript</span>
+                        <span class="tech-tag">React</span>
+                        <span class="tech-tag">Node.js</span>
+                    </div>
+                    <a href="#contact" class="btn btn-primary mt-3">Request Service</a>
+                </div>
+            </div>
+
+            <!-- App Design Service -->
+            <div class="service-item">
+                <i class="fas fa-mobile-alt"></i>
+                <h2>App Design</h2>
+                <p>Cutting-edge mobile app design (2021-current)</p>
+                <span class="learn-more-btn" onclick="toggleServiceDetails('app-design')">Learn more ▼</span>
+                <div class="service-details" id="app-design">
+                    <h4>What I Offer:</h4>
+                    <ul>
+                        <li>UI/UX design for mobile apps</li>
+                        <li>Prototyping and wireframing</li>
+                        <li>User flow optimization</li>
+                        <li>Design system creation</li>
+                    </ul>
+                    <h4>Tools:</h4>
+                    <div class="tech-tags">
+                        <span class="tech-tag">Figma</span>
+                        <span class="tech-tag">Adobe XD</span>
+                        <span class="tech-tag">Sketch</span>
+                        <span class="tech-tag">InVision</span>
+                    </div>
+                    <a href="#contact" class="btn btn-primary mt-3">Request Service</a>
+                </div>
+            </div>
+
+            <!-- Web Design Service -->
+            <div class="service-item">
+                <i class="fas fa-paint-brush"></i>
+                <h2>Web Design</h2>
+                <p>Modern responsive web design services (2019-current)</p>
+                <span class="learn-more-btn" onclick="toggleServiceDetails('web-design')">Learn more ▼</span>
+                <div class="service-details" id="web-design">
+                    <h4>What I Offer:</h4>
+                    <ul>
+                        <li>Custom website designs</li>
+                        <li>Landing pages</li>
+                        <li>Brand identity integration</li>
+                        <li>Website redesigns</li>
+                    </ul>
+                    <h4>Specializations:</h4>
+                    <div class="tech-tags">
+                        <span class="tech-tag">Responsive Design</span>
+                        <span class="tech-tag">Accessibility</span>
+                        <span class="tech-tag">Performance</span>
+                        <span class="tech-tag">SEO-friendly</span>
+                    </div>
+                    <a href="#contact" class="btn btn-primary mt-3">Request Service</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+                        
+            
+                    
+                        <
+            <!-- Portfolio Section -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+
+        <!-- App Design Project -->
+        <div class="portfolio-category">
+            <h2 class="category-title">App Design</h2>
+            <div class="work">
+                <div class="figma-container">
+                    <iframe 
+                        src="https://www.figma.com/embed?embed_host=share&url=https://www.figma.com/proto/g85gF5dWWcgGqTpMizWJhY/Untitled?node-id=0-1&t=Mu6QUHMozLpGv8Nn-1" 
+                        allowfullscreen
+                        title="Figma Design Prototype">
+                    </iframe>
+                </div>
+                <div class="layer">
+                    <img src="favour.jpg" alt="App Design Project Screenshot">
+                    <h3>App Name</h3>
+                    <p class="project-description">Crafted with user experience as the priority, this design showcases:</p>
+                    <ul class="project-features">
+                        <li>Interactive onboarding flow</li>
+                        <li>Micro-interactions and animations</li>
+                        <li>Accessibility-focused color scheme</li>
+                        <li>Mobile-first responsive design</li>
+                    </ul>
+                    <div class="tech-tags">
+                        <span class="tech-tag">Figma</span>
+                        <span class="tech-tag">UI/UX Design</span>
+                        <span class="tech-tag">Prototyping</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#contact" class="btn btn-primary">
+                            <i class="fas fa-handshake"></i> Collaborate on Design
+                        </a>
+                        <a href="https://www.figma.com/proto/g85gF5dWWcgGqTpMizWJhY/Untitled" 
+                           target="_blank" 
+                           rel="noopener noreferrer"
+                           class="btn btn-outline-primary">
+                            <i class="fas fa-external-link-alt"></i> Live Prototype
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Web Development Project -->
+        <div class="portfolio-category">
+            <h2 class="category-title">Web Development Projects</h2>
+            <div class="work">
+                <div class="code-container">
+                    <img src="ecjpg.jpg" alt="E-commerce Project Screenshot">
+                </div>
+                <div class="layer">
+                    <h3>Modern E-commerce Platform</h3>
+                    <p class="project-description">Full-stack development project featuring:</p>
+                    <ul class="project-features">
+                        <li>React-based frontend with Redux</li>
+                        <li>JavaScript</li>
+                        <li>MongoDB database integration</li>
+                        <li>Payment gateway integration</li>
+                    </ul>
+                    <div class="tech-tags">
+                        <span class="tech-tag">HTML5</span>
+                        <span class="tech-tag">JavaScript</span>
+                        <span class="tech-tag">CSS3</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#contact" class="btn btn-primary">
+                            <i class="fas fa-code"></i> Development Inquiry
+                        </a>
+                        <a href="https://github.com/Amakwe-Favour/E-commerce.github.io" 
+                           target="_blank" 
+                           rel="noopener noreferrer"
+                           class="btn btn-outline-primary">
+                            <i class="fab fa-github"></i> View Code
+                        </a>
+                        <a href="https://amakwe-favour.github.io/E-commerce.github.io/" 
+                           target="_blank" 
+                           rel="noopener noreferrer"
+                           class="btn btn-success">
+                            <i class="fas fa-external-link-alt"></i> Live Demo
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Call to Action -->
+        <div class="text-center mt-5">
+            <a href="#contact" class="btn btn-primary btn-lg">
+                <i class="fas fa-rocket"></i> Start Project
+            </a>
+        </div>
+    </div>
+</div>
+
+<!-- Contact Section -->
+<div id="contact">
+    <div class="container">
+        <h1 class="sub-title">Contact Me</h1>
+        <div class="row">
+            <div class="contact-left">
+                <p><i class="fas fa-paper-plane"></i> amakwefavour@gmail.com</p>
+                
+                <div class="phone-container">
+                    <i class="fas fa-phone-square"></i>
+                    <a href="tel:+2347047423306" class="phone-link" id="phoneLink">07047423306</a>
+                    <span class="desktop-call-options" id="desktopCallOptions">
+                        <a href="https://wa.me/2347047423306" target="_blank" title="Call via WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                        <a href="https://t.me/+2347047423306" target="_blank" title="Call via Telegram"><i class="fab fa-telegram"></i></a>
+                    </span>
+                </div>
+                
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/profile.php?id=61571803049619" target="_blank">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                    <a href="https://tiktok.com" target="_blank"><i class="fab fa-tiktok"></i></a>
+                </div>
+                
+                <!-- File Upload Form -->
+                <form id="uploadForm" enctype="multipart/form-data">
+                    <input type="file" id="fileToUpload" name="fileToUpload" style="display: none;">
+                    <button type="button" class="btn btn-primary" onclick="document.getElementById('fileToUpload').click()">
+                        Upload File
+                    </button>
+                    <button type="submit" class="btn btn-primary">Submit File</button>
+                </form>
+                <a href="cv.pdf" download class="btn btn-primary" onclick="handleDownload()">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <!-- Add labels to form inputs -->
+
+                <form id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="6" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block btn-sm">
+                        <i class="fas fa-paper-plane"></i> Send Message
+                    </button>
+                </form>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer>
+    <div class="border-top border-secondary mt-4 pt-4">
+        <p class="text-center text-muted mb-0">
+            &copy; 2025 Favour Amakwe. All rights reserved.<br>
+            <small>Built with passion and <i class="fas fa-heart text-danger"></i></small>
+        </p>
+    </div>
+</footer>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+<script>
+    // Smooth scroll function
+    function smoothScrollToContact() {
+        const contactSection = document.getElementById('contact');
+        if (contactSection) {
+            contactSection.scrollIntoView({
+                behavior: 'smooth'
+            });
+        }
+    }
+
+    function toggleServiceDetails(id) {
+        var element = document.getElementById(id);
+        if (element.style.display === "block") {
+            element.style.display = "none";
+        } else {
+            // Hide all other service details first
+            var allDetails = document.querySelectorAll('.service-details');
+            allDetails.forEach(function(detail) {
+                detail.style.display = 'none';
+            });
+            // Show the clicked one
+            element.style.display = "block";
+        }
+    }
+    
+    function handleDownload() {
+        // Track download event
+        console.log('CV downloaded successfully');
+        
+        // Optional: Show confirmation
+        alert('Thank you for downloading my CV!');
+    }
+    
+    // Handle file upload form submission
+    document.getElementById('uploadForm').addEventListener('submit', function(e) {
+        e.preventDefault();
+        var fileInput = document.getElementById('fileToUpload');
+        if (fileInput.files.length > 0) {
+            var file = fileInput.files[0];
+            console.log('File selected:', file.name);
+            
+            // Here you would typically send the file to a server
+            // For demonstration, we'll just show an alert
+            alert('File "' + file.name + '" selected. In a real application, this would be uploaded to the server.');
+            
+            // Reset the form
+            this.reset();
+        } else {
+            alert('Please select a file first.');
+        }
+    });
+    
+    // Handle contact form submission (now properly placed after the form exists)
+    document.addEventListener('DOMContentLoaded', function() {
+        const contactForm = document.getElementById('contactForm');
+        if (contactForm) {
+            contactForm.addEventListener('submit', function(e) {
+                e.preventDefault();
+                
+                // Get form values
+                const name = document.querySelector('input[name="name"]').value;
+                const email = document.querySelector('input[name="email"]').value;
+                const message = document.querySelector('textarea[name="message"]').value;
+
+                // Show personalized confirmation
+                if (name && email && message) {
+                    alert(`Thank you, ${name}! Your message has been submitted successfully.`);
+                    this.reset();
+                } else {
+                    alert('Please fill in all required fields.');
+                }
+            });
+        }
+    });
+    
+    // Close service details when clicking outside
+    document.addEventListener('click', function(event) {
+        if (!event.target.matches('.learn-more-btn') && !event.target.closest('.service-details')) {
+            var details = document.querySelectorAll('.service-details');
+            details.forEach(function(detail) {
+                detail.style.display = 'none';
+            });
+        }
+    });
+    
+    // Enhanced phone link handling
+    const phoneLink = document.getElementById('phoneLink');
+    const desktopOptions = document.getElementById('desktopCallOptions');
+    
+    // Check if device is mobile
+    function isMobile() {
+        return /Android|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+    }
+    
+    // Handle phone link click
+    if (!isMobile()) {
+        phoneLink.onclick = function(e) {
+            e.preventDefault();
+            desktopOptions.style.display = 'inline';
+            phoneLink.style.display = 'none';
+        };
+    }
+</script>
+</body>
+</html>
